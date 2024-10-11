@@ -39,6 +39,8 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
 
 vim.opt.cursorline = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 20

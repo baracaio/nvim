@@ -34,4 +34,13 @@ return { -- Collection of various small independent plugins/modules
         -- ... and there is more!
         --  Check out: https://github.com/echasnovski/mini.nvim
     end,
+
+    opts = {
+        file = {
+            [".go-version"] = { glyph = "", hl = "MiniIconsBlue" },
+        },
+        filetype = {
+            gotmpl = { glyph = "󰟓", hl = "MiniIconsGrey" },
+        },
+    },
 }
